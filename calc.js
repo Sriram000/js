@@ -16,8 +16,8 @@ var inputs = [
     
 ];
 var input = function () {
-  var result = inputs.shift();
-  return result;
+    var result = inputs.shift();
+    return result;
 }
 while(true){
     var userInput = input();
@@ -28,7 +28,7 @@ while(true){
     }
     else if(userInput=="add"|| userInput=="subtract"||userInput=="multiply"||userInput=="divide")
     {
-
+        
         var number1 =  parseInt(input());
         var number2 = parseInt(input());
         if(userInput=="add"){
@@ -48,7 +48,7 @@ while(true){
     else{
         console.log("Invalid Input");
     }
-
+    
 }
 input();
 console.log("done");

@@ -4,8 +4,8 @@ var ispalindrome= function(string){
 }
 
 var reverseString = function(source) {
-   var resultString = "";
-
+    var resultString = "";
+    
     var i;
     for(i=0;i<source.length;i++){
         var char = source[i];
@@ -13,13 +13,13 @@ var reverseString = function(source) {
         
     }
     return resultString;
-   
-}
     
+}
+
 var display = function(input) {
     
     var output = ispalindrome(input); 
-
+    
     console.log(output);
 }
 display("level");

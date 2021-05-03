@@ -6,9 +6,9 @@ var randomBetween= function(min,max){
 var getUuidPart = function(length) {
     var createUuid = "";
     for(var i=0;i<length;i++) {
-    var randomNumber = randomBetween(0,15);
-    var hexaDecimalNumber = randomNumber.toString(16);
-    createUuid = createUuid + hexaDecimalNumber;
+        var randomNumber = randomBetween(0,15);
+        var hexaDecimalNumber = randomNumber.toString(16);
+        createUuid = createUuid + hexaDecimalNumber;
     }
     return createUuid;
 }
@@ -22,9 +22,9 @@ var getUuid = function() {
     return parts.join("-");
 }
 
-    for(var i=1;i<=10;i++) {
+for(var i=1;i<=10;i++) {
     console.log(getUuid());
-    }
+}
 
 
 // var aplhabets = function(length1, length2) {

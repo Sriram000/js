@@ -4,23 +4,23 @@ var isEligibleToVote = function(){
 }
 var age = isEligibleToVote(1);
 if(age>=18)
-    {
-        console.log("Eligible To Vote");
-    }
+{
+    console.log("Eligible To Vote");
+}
 else{
-        console.log("Not Eligible To Vote");
-    }
+    console.log("Not Eligible To Vote");
+}
 
 
 var command = "multiply";
 
 var add = function(num1,num2){
     return num1+num2;
-
+    
 }
 var multiply = function(num1,num2){
     return num1*num2;
-
+    
 }
 if(command=="add")
 {
@@ -29,7 +29,7 @@ if(command=="add")
 else if(command=="multiply")
 {
     console.log(multiply(10,10));
-
+    
 }
 var command = "multiply";
 var result1 = add(10,10);
@@ -43,24 +43,24 @@ var k = numbers;
 var l = newArray;
 for(i=0;i<numbers.length;i++)
 { 
-for(j=0;j<newArray.length;j++)
-{
-    if(k[i]==l[i])
+    for(j=0;j<newArray.length;j++)
     {
-        if(l[i]%2==0)
+        if(k[i]==l[i])
         {
-            console.log("Even");
+            if(l[i]%2==0)
+            {
+                console.log("Even");
+            }
+            else
+            {
+                console.log("Odd");
+            }
+            
+            
+            
         }
-        else
-        {
-            console.log("Odd");
-        }
-
-
-
+        
     }
-
-}
 }
 
 var arr = [1];

@@ -9,6 +9,6 @@ const getData = function() {
         const arr = array.push(i);
         console.log(arr);
     }
-
+    
 }
 getData();

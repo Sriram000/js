@@ -7,7 +7,7 @@ var getRandomArray = function(count){
    for(var i=0;i<count;i++){
       var result = randomBetween(65,90);
       Numbers.push(result);
-
+      
    }
    return Numbers;
 }
@@ -26,10 +26,10 @@ var getSameNumbers = function(randomArray){
 }
 var main = function(){
    // console.log(randomBetween(65,90));
-  // getSameNumbers();
+   // getSameNumbers();
    var randomArray=getRandomArray(10);
    console.log(randomArray);
-
+   
    var sameNumbers = getSameNumbers(randomArray);
    console.log(sameNumbers);
 }
